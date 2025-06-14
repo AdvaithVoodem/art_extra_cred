@@ -79,7 +79,7 @@ public class Panel extends JPanel{
         //     if(currRow >= rows) ((Timer) e.getSource()).stop();
         // });
 
-        timer = new Timer(5, e -> {
+        timer = new Timer(1, e -> {
             diagonal++;
             repaint();
             if (diagonal > cols + rows - 2) {
