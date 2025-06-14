@@ -96,3 +96,10 @@ There is no numeric rubric—extra credit will be based on:
 ## Submission
 
 You’ll demonstrate your project live during class. No formal submission is required unless otherwise requested. Make sure your code is ready to run on demo day.
+
+## Sources
+- https://stackoverflow.com/questions/25816351/java-2d-perlin-noise-for-random-terrain-generation
+- https://github.com/LefMarOli/PerlinNoiseJava
+- https://peerdh.com/blogs/programming-insights/implementing-noise-functions-for-terrain-generation-in-java
+- https://www.geeksforgeeks.org/java/java-util-timer-class-java/
+
