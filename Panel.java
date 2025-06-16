@@ -30,7 +30,7 @@ public class Panel extends JPanel{
         // for(int i = 0; i < cols; i++){
         //     for (int j = 0; j <= currRow && j < rows; j++){
         //         g.setColor(getColor(terrain[i][j]));
-        //         g.fillRect(i * cellW, j * cellH, cellW, cellH);
+        //         g.fillOval(i * cellW, j * cellH, cellW, cellH);
         //     }
         // }
 
@@ -79,7 +79,7 @@ public class Panel extends JPanel{
         //     if(currRow >= rows) ((Timer) e.getSource()).stop();
         // });
 
-        timer = new Timer(1, e -> {
+        timer = new Timer(10, e -> {
             diagonal++;
             repaint();
             if (diagonal > cols + rows - 2) {
