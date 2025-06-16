@@ -102,4 +102,3 @@ You’ll demonstrate your project live during class. No formal submission is req
 - https://github.com/LefMarOli/PerlinNoiseJava
 - https://peerdh.com/blogs/programming-insights/implementing-noise-functions-for-terrain-generation-in-java
 - https://www.geeksforgeeks.org/java/java-util-timer-class-java/
-
