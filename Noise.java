@@ -1,5 +1,5 @@
 public class Noise {
-    private int seed = (int)(Math.random() * Integer.MAX_VALUE);
+    private final int seed = (int)(Math.random() * Integer.MAX_VALUE);
 
     private float noise(int x, int y){
         int n = x * 374761393 + y * 668265263 + seed;

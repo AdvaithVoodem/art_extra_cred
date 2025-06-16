@@ -1,10 +1,10 @@
 import java.awt.*;
 import javax.swing.*;
 
-public class Panel extends JPanel{
+public final class Panel extends JPanel{
     private final int cols, rows;
     private final float[][] terrain;
-    private int currRow = 0;
+    //private int currRow = 0;
     private Timer timer;
     private int diagonal = 0;
     
@@ -66,7 +66,7 @@ public class Panel extends JPanel{
             }
         }
 
-        currRow = 0;
+        //currRow = 0;
         diagonal = 0;
 
         if(timer != null && timer.isRunning()){
