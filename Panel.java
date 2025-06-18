@@ -51,10 +51,10 @@ public final class Panel extends JPanel{
     }
 
     private Color getColor(float x){
-        if(x < 0.1) return Color.RED;
-        else if(x < 0.6) return Color.ORANGE;
+        if(x < 0.05) return Color.BLUE;
+        else if(x < 0.6) return Color.GREEN;
         else if(x < 0.8) return new Color(139, 69, 19);
-        else return Color.YELLOW;
+        else return Color.WHITE;
     }
 
     public void generateTerrain(){
